@@ -1,0 +1,61 @@
+ /* Estilos del normalize de body y algunos especificos como el background-color */
+    body {
+        margin: 0;
+        background-color: #D5E1EF;
+    }
+
+ /* Estilos para el contenedor principal */
+
+    .principal-container {
+        box-sizing: border-box;
+        max-width: 320px;
+        height: 497px;
+        text-align: center;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 2rem auto;
+        box-shadow: 10px 10px 5px 0px #97979722;
+
+    }
+
+/* Estilos para la primera seccion del div */
+
+    .img-QRcode {
+        width: 100%;
+        height: 288px;
+        border-radius: 8px;
+    }
+
+ /* Estilos para la segunda seccion contenedora de los p */
+
+    .section-text {
+        width: 100%;
+        height: 129px;
+        text-align: center;
+    }
+
+ /* Estilos para los p */
+
+    .first-text, .second-text {
+        text-align: center;
+        color: #1F314F;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        width: 100%;
+        height: 56;
+    }
+
+    .second-text {
+        color: #7D889E;
+        font-weight: normal;
+        font-size: 15px;
+    }
+
+ /* Estilos por defecto de front-end mentor */
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
